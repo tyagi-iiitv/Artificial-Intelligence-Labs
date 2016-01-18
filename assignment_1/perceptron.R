@@ -13,7 +13,6 @@ calculate_output <- function(theta, weights, x1, x2, x3, x4){
 x <- read.csv("Iris_dataset.csv") #x stores the data set
 ran_numbers <- rnorm(5) #generate 4 random numbers
 weights <- dnorm(ran_numbers)
-weights_original <- weights #Stores the initial weights for the parameters
 iteration <- 0
 theta <- 2
 instances <- 150
